@@ -1,0 +1,30 @@
+name: meal-rec-plan
+
+channels:
+- conda-forge
+- anaconda
+- pytorch
+- defaults
+
+dependencies:
+- python==3.9.12
+- matplotlib==3.5.1
+- numpy==1.21.5
+- pandas==1.4.2
+- scipy==1.7.3
+- scikit-learn==1.0.2
+- streamlit==1.13.0
+- pytorch
+- torchvision
+- torchaudio
+- cudatoolkit=11.6
+- pip==21.2.4
+- pip:
+  - psycopg2
+  - torch 
+  - transformers 
+  - lime
+  - google_images_download
+  - google_images_search
+  - protobuf==3.20.3
+  - windows-curses

@@ -1,0 +1,20 @@
+name: webS3-env
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  
+dependencies:
+  - python=3.9.15
+  - ipykernel=6.19.2
+  - numpy=1.23.5
+  - pandas=1.5.3
+  - django
+  - virtualenv
+  - boto3=1.26.83
+  - pip=23.0.1
+  - pip:
+    - git+https://github.com/mariostoev/finviz
+    - pandas-datareader
+    - yfinance
+
